@@ -2,36 +2,49 @@
 // gunakan const untuk variable yang tidak di inisialisasi ulang
 
 // menginisialisasi ulang array menggunakan let
-let fruit = ['apple', 'banana', 'manggo'];
-fruit = ['apple', 'banana', 'manggo', 'grape'];
+// let fruit = ['apple', 'banana', 'manggo'];
+// fruit = ['apple', 'banana', 'manggo', 'grape'];
 
-console.log(`menggunakan let = ${fruit}`) // es6 string
+// console.log(`menggunakan let = ${fruit}`) // es6 string
 
 // mengubah array menggunakan const
-const fruitt = ['apple', 'banana', 'manggo'];
-fruitt.push('pineapple', 'wwatermelon');
-console.log(`menggunakan const = ${fruitt}`); // es6 string
+// const fruitt = ['apple', 'banana', 'manggo'];
+// fruitt.push('pineapple', 'wwatermelon');
+// console.log(`menggunakan const = ${fruitt}`); // es6 string
 
 
 // menginisialisasi object menggunakan let
-let people = {
-    name: 'prio',
-    age: 18
-};
+// let people = {
+//     name: 'prio',
+//     age: 18
+// };
 
-people = {
-    name: 'prio',
-    age: 18,
-    position: 'Web Developer'
-};
+// people = {
+//     name: 'prio',
+//     age: 18,
+//     position: 'Web Developer'
+// };
 
-console.log(people)
+// console.log(people)
 
 // merubah isi object menggunakan const
-const peoplee = {
-    name: 'prio',
-    age: 18
-};
+// const peoplee = {
+//     name: 'prio',
+//     age: 18
+// };
 
-peoplee.position = 'Android Developer';
-console.log(peoplee);
+// peoplee.position = 'Android Developer';
+// console.log(peoplee);
+
+
+// es6
+
+const profile = {
+    name: 'Prio Arief Gunawan',
+    gender: 'Male',
+    position: 'Web Programmer'
+}
+
+console.log(profile);
+
+console.log(`My name is ${profile.name}. Gender ${profile.gender} and My position is ${profile.position}  `);
